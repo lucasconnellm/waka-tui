@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "waka-tui"
+version = "0.1.0"
+description = "A terminal interface for viewing Wakatime statistics"
+authors = ["lucasconnellm <38635411+lucasconnellm@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{ include = "waka_tui" }]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+textual = "^0.33.0"
+
+
+[tool.poetry.group.dev.dependencies]
+textual-dev = "^1.1.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
